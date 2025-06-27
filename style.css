@@ -124,7 +124,7 @@ span{
   color:#fff;
 }
 .project-title{
-  font-size: 50px;
+  font-size: 35px;
   font-style: italic;
   background: linear-gradient(to right, #f97794, #6200ff, #3498db);
   background-size: 180% 180%;
@@ -163,7 +163,7 @@ span{
 .cards-section{
   display: flex;
   width:100%;
-  gap:30px;
+  gap:50px;
   overflow-x: auto;
   padding-bottom: 20px;
   scroll-behavior: smooth;
@@ -204,10 +204,11 @@ span{
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 200px;
+  height:200px;
   text-align: center;
   flex-direction: column;
-  height:200px;
-  width:200px;
+  object-fit: cover;
   gap:20px;
 }
 .circle{
@@ -222,4 +223,3 @@ span{
   background-color: white;
   color: black;
 }
-
