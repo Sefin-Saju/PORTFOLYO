@@ -223,3 +223,34 @@ span{
   background-color: white;
   color: black;
 }
+/* responsiveness */
+@media(max-width:768px){
+  .profile-section{
+    flex-direction: column;
+  }
+  #me{
+    height: 240px;
+    width:240px;
+  }
+  .pro-img{
+    height: 260px;
+    width:260px;
+  }
+  .pro-title{
+    font-size:75px;
+  }
+  .pro-section, .pro-title{
+    text-align: center;
+  }
+  .project-title{
+    font-size: 35px;
+  }
+  .card{
+    width:400px;
+    height:auto;
+    object-fit: cover;
+  }
+}
+@media(max-width:480px){
+  
+}
