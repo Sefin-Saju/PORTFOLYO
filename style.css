@@ -193,3 +193,31 @@ span{
   align-items: flex-start;
   color:#fff;
 }
+.contact-flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+  width:100%;
+}
+.contact-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap:20px;
+}
+.circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right,#f97794, #6200ff, #3498db);
+  height:75px;
+  width: 75px;
+  font-size: 35px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+}
+
