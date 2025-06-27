@@ -252,5 +252,40 @@ span{
   }
 }
 @media(max-width:480px){
-  
+  .profile-section{
+    justify-content: center;
+    gap:30px;
+  }
+  #me{
+    height:200px;
+    width:200px;
+  }
+  .pro-img{
+    height:225px;
+    width:225px;
+  }
+  .about-details{
+    grid-template-columns: 1fr;
+  }
+  .box{
+    height: 70%;
+    overflow: auto;
+  }
+  .project-title{
+    font-size: 20px;
+  }
+  .cards-section{
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  .card{
+    height: 60%;
+    width: auto;
+  }
+  .contact-flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 }
