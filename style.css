@@ -26,7 +26,7 @@
   font-style: italic;
 }
 span{
-  background: linear-gradient(90deg,#833AB4,#FD1D1D,#FCB045);
+  background: linear-gradient(to right,#f97794, #6200ff, #3498db);
   background-size: 180% 180%;
   animation: animate 18s ease infinite;
   -webkit-background-clip: text;
@@ -44,14 +44,14 @@ span{
   height: 375px;
   width:375px;
   border-radius: 50%;
-  background: linear-gradient(90deg,#833AB4,#FD1D1D,#FCB045);
+  background: linear-gradient(to right,#f97794, #6200ff, #3498db);
   background-size: 180% 180%;
   animation: animate 18s ease infinite;
 }
 .about-section{
   height: 100vh;
   align-items: center;
-  background:linear-gradient(to right,#833AB4,#FD1D1D,#FCB045);
+  background: linear-gradient(to right,#f97794, #6200ff, #3498db);
   animation: animate 18s ease infinite;
   background-size: 180% 180%;
   color: #fff;
