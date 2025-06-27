@@ -206,6 +206,8 @@ span{
   align-items: center;
   text-align: center;
   flex-direction: column;
+  height:200px;
+  width:200px;
   gap:20px;
 }
 .circle{
