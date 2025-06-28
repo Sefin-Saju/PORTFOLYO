@@ -7,6 +7,33 @@
   height: 200vh;
   background-color:black;
 }
+.nav-bar{
+  height:75px;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background: transparent;
+  z-index:1;
+}
+.nav-link{
+  transition: all 0.3s ease;
+}
+.nav-link:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.nav-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:50px;
+  color:#fff;
+  height:100%;
+  width:100%;
+  background-color: black;
+}
 .profile-section{
   height:100vh;
   background-color: black;
@@ -223,6 +250,7 @@ span{
   background-color: white;
   color: black;
 }
+
 @media(max-width:768px){
   .profile-section{
     flex-direction: column;
@@ -287,4 +315,10 @@ span{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
+}
+.sky{
+    background: linear-gradient(to right, #f97794, #6200ff, #3498db);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    transform: scale(1.1);
 }
