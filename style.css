@@ -151,6 +151,7 @@ span{
   color:#fff;
 }
 .project-title{
+   margin-top: 60px;
   font-size: 35px;
   font-style: italic;
   background: linear-gradient(to right, #f97794, #6200ff, #3498db);
