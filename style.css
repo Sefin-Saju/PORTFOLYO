@@ -250,6 +250,12 @@ span{
   background-color: white;
   color: black;
 }
+.sky{
+    background: linear-gradient(to right, #f97794, #6200ff, #3498db);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    transform: scale(1.2);
+}
 
 @media(max-width:768px){
   .profile-section{
@@ -315,10 +321,4 @@ span{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
-}
-.sky{
-    background: linear-gradient(to right, #f97794, #6200ff, #3498db);
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
-    transform: scale(1.2);
 }
