@@ -286,6 +286,9 @@ span{
   }
 }
 @media(max-width:480px){
+  .nav-bar{
+    opacity:0;
+  }
   .profile-section{
     justify-content: center;
     gap:30px;
